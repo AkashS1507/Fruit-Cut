@@ -37,7 +37,7 @@ div3.addEventListener("click", function() {
     score.style.textAlign = "center";
     score.style.margin = "2% 0 0 0";
     btn.style.display = "block";
-    btn.innerText = "Retry";
+    btn.innerText = "Try again";
 });
 
 let div4 = document.querySelector(".div4");
