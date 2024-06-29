@@ -4,6 +4,7 @@ score.innerText = `Your Score: ${count}`;
 
 let h1 = document.querySelector("h1");
 let h2 = document.querySelector("h2");
+let btn = document.querySelector("button");
 
 let div1 = document.querySelector(".div1");
 div1.addEventListener("click", function() {
@@ -19,6 +20,7 @@ div2.addEventListener("click", function() {
     checkWin();
 });
 
+//bomb
 let div3 = document.querySelector(".div3");
 div3.addEventListener("click", function() {
     div3.style.display = "none";
@@ -34,6 +36,8 @@ div3.addEventListener("click", function() {
     
     score.style.textAlign = "center";
     score.style.margin = "2% 0 0 0";
+    btn.style.display = "block";
+    btn.innerText = "Retry";
 });
 
 let div4 = document.querySelector(".div4");
@@ -59,7 +63,11 @@ function checkWin() {
         h2.style.display = "none";
 
         div3.style.display = "none";
+        btn.style.display = "block";
     }
+}
+function refreshPage() {
+    location.reload(); // Reloads the current page
 }
 //
 setTimeout(function(){div1.classList.add("animation1");} , 1000);
