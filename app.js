@@ -31,8 +31,9 @@ div3.addEventListener("click", function() {
     h1.innerText = "Game Over!";
     h1.style.display = "block";
     h2.style.display = "none";
-
+    
     score.style.textAlign = "center";
+    score.style.margin = "2% 0 0 0";
 });
 
 let div4 = document.querySelector(".div4");
