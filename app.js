@@ -54,7 +54,10 @@ function checkWin() {
         h1.innerText = "Amazing, You Won!";
         h1.style.display = "block";
         score.style.textAlign = "center";
+        score.style.margin = "2% 0 0 0";
         h2.style.display = "none";
+
+        div3.style.display = "none";
     }
 }
 //

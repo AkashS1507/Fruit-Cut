@@ -13,19 +13,20 @@ h1 {
     font-family: monospace;
     text-align: center;
     margin-top: 20%;
-    font-size: 4rem;
+    font-size: 2vw;
     display: none;
 }
 h2 {
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1.2%;
+    font-size: 2.5rem;
 }
 .score {
     text-align: right;
     color: white;
-    margin: 25px 40px 0 0;
-    font-size: 1.5rem;
+    margin: 2% 4% 0 0;
+    font-size: 2rem;
 }
 div {
     /* border: 2px solid black; */
@@ -34,80 +35,80 @@ div {
     cursor: pointer;
 }
 .div1 {
-    height: 140px;
-    width: 170px;
+    /* height: auto; */
+    width: 15%;
 }
 .div2 {
-    height: 150px;
-    width: 220px;
+    /* height: auto; */
+    width: 18%;
 }
 .div3 {
-    height: 160px;
-    width: 275px;
+    /* height: auto; */
+    width: 25%;
 }
 .div4 {
-    height: 140px;
-    width: 250px;
+    /* height: auto; */
+    width: 22%;
 }
 .div5 {
-    height: 340px;
-    width: 270px;
+    /* height: auto;*/
+    width: 20%;
 }
 .animation1 {
     display: block;
-    animation: sky1 4s 0s linear alternate infinite;
+    animation: sky1 6s 0s linear alternate infinite;
 }
 .animation2 {
     display: block;
-    animation: sky2 4s 0s linear alternate infinite;
+    animation: sky2 6s 0s linear alternate infinite;
 }
 .animation3 {
     display: block;
-    animation: sky3 5s 0s linear alternate infinite;
+    animation: sky3 7s 0s linear alternate infinite;
 }
 .animation4 {
     display: block;
-    animation: sky4 4s 0s linear alternate infinite;
+    animation: sky4 6s 0s linear alternate infinite;
 }
 .animation5 {
     display: block;
-    animation: sky5 4s 0s linear alternate infinite;
+    animation: sky5 6s 0s linear alternate infinite;
 }
 div img {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 @keyframes sky1 {
     0% {
-        bottom: -150px;
-        left: 50px;
+        bottom: -50%;
+        left: 5%;
         transform: rotate(0deg);
     }
     50% {
-        bottom: 350px;
-        left: 150px;
+        bottom: 65%;
+        left: 15%;
         transform: rotate(-360deg);
     }
     100% {
-        bottom: -150px;
-        left: 300px;
+        bottom: -50%;
+        left: 25%;
         transform: rotate(-720deg);
     } 
 }
 @keyframes sky2 {
     0% {
-        bottom: -150px;
-        right: 50px;
+        bottom: -50%;
+        right: 5%;
         transform: rotate(0deg);
     }
     50% {
-        bottom: 350px;
-        right: 150px;
+        bottom: 65%;
+        right: 15%;
         transform: rotate(-360deg);
     }
     100% {
-        bottom: -150px;
-        right: 300px;
+        bottom: -50%;
+        right: 25%;
         transform: rotate(-720deg);
     } 
 }
@@ -130,7 +131,7 @@ div img {
 }
 @keyframes sky4 {
     0% {
-        right: -20%;
+        right: -25%;
         top: -10%;
         transform: rotate(0deg);
     }
@@ -142,7 +143,7 @@ div img {
 }
 @keyframes sky5 {
     0% {
-        left: -20%;
+        left: -25%;
         top: -20%;
         transform: rotate(0deg);
     }
